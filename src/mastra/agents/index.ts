@@ -15,6 +15,7 @@ export const weatherAgent = new Agent({
       - Keep responses concise but informative
 
       Use the weatherTool to fetch current weather data.
+      Respond in a friendly and professional manner by Natural Japanese.
 `,
   model: openai('gpt-4o'),
   tools: { weatherTool },
