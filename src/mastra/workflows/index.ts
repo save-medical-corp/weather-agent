@@ -153,7 +153,7 @@ const planActivities = createStep({
       ${JSON.stringify(forecast, null, 2)}
       `;
 
-    const response = await agent.streamLegacy([
+    const response = await agent.stream([
       {
         role: 'user',
         content: prompt,

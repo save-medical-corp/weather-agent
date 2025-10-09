@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev"
+    "dev": "mastra dev",
+    "clean": "rimraf node_modules"
   },
   "keywords": [],
   "author": "",
@@ -13,14 +14,16 @@
   "description": "One Agent, one Workflow and one Tool to bring you the weather in your city.",
   "type": "module",
   "dependencies": {
-    "@mastra/core": "latest",
-    "@mastra/loggers": "latest",
-    "@mastra/mcp": "latest",
+    "@ai-sdk/openai": "^2.0.44",
+    "@mastra/core": "0.20.2",
+    "@mastra/loggers": "0.10.15",
+    "@mastra/mcp": "0.13.4",
     "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
-    "mastra": "latest",
+    "mastra": "0.15.1",
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.3"
   }
 }
