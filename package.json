@@ -15,15 +15,17 @@
   "type": "module",
   "dependencies": {
     "@ai-sdk/openai": "^2.0.44",
-    "@mastra/core": "0.20.2",
-    "@mastra/loggers": "0.10.15",
-    "@mastra/mcp": "0.13.4",
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@mastra/core": "^0.16.2",
+    "@mastra/libsql": "^0.14.0",
+    "@mastra/loggers": "^0.10.11",
+    "@mastra/mcp": "^0.13.4",
+    "@mastra/memory": "^0.15.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@types/node": "^22.15.29",
-    "mastra": "0.15.1",
-    "rimraf": "^6.0.1",
-    "typescript": "^5.8.3"
+    "@types/node": "^24.3.1",
+    "mastra": "^0.12.2",
+    "typescript": "^5.9.2"
   }
 }
